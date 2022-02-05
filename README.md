@@ -1,6 +1,6 @@
 # Sales-Data-Analysis
 This sales data analysis project has been done using jupyter notebook, pandas and matplotlib
-12 Different datasets has been used for the analysis each data sets contains monthy sales data info along with the product name, order id, order amount, shipping addresses, order date and time
+and 12 Different datasets has been used for the analysis each data sets contains monthy sales data info along with the product name, order id, order amount, shipping addresses, order date and time
 This analysis on the sales data will help business to get answers of few important questions:
 1. which month has the highest sales rate?
 2. Which city has the highest number of sales?
