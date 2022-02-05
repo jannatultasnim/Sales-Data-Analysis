@@ -91,13 +91,27 @@ all_new_data['Order Date']=pd.to_datetime(all_new_data['Order Date'])
 all_new_data.head()
 ===========================================================================
 Months with sales reates bar chart
+
 ![image](https://user-images.githubusercontent.com/59441768/152639499-213fab15-6c85-4ad6-ac43-543f73731f2b.png)
+
 city with highest sales
+
+
 ![image](https://user-images.githubusercontent.com/59441768/152639589-4eddda5a-3272-40ad-b4a5-fc7f9bb4037c.png)
+
+
 time should we display our product advertisement to increase the likelyhood of customer buying products
+
+
 ![image](https://user-images.githubusercontent.com/59441768/152639673-7422dcc1-e769-4420-ad41-44453954c7ce.png)
+
+
 product sold the most and why
+
+
 ![image](https://user-images.githubusercontent.com/59441768/152639694-2e0b94a8-30a4-4f84-9594-17a01d55e5d6.png)
+
+
 ![image](https://user-images.githubusercontent.com/59441768/152639710-42544eba-ff08-48d3-9557-4949feb115b9.png)
 
 
