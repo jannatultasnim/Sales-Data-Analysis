@@ -10,9 +10,14 @@ This analysis on the sales data will help business to get answers of few importa
 ------------------------------------------------------------------------------
 First import these 2 pyhton library
 import pandas as pd
+
 import matplotlib.pyplot as plt
-import os #reference https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
+
+import os 
+#reference 
+https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
 from itertools import combinations
+
 from collections import Counter
 
 Task1-------------------------------------------------------------------------: 
