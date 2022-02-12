@@ -21,6 +21,7 @@ from itertools import combinations
 from collections import Counter
 
 Task1-------------------------------------------------------------------------: 
+
 Merging All the datasets of each months sales data in to a single dataset
 
 df  = pd.read_csv('./Sales_Data/Sales_April_2019.csv')
@@ -50,12 +51,16 @@ Read the updatated data set created on the first task
 all_new_data = pd.read_csv('all-month-data.csv')
 
 all_new_data.head(6)
+
 Task 2=====================================================================================:
+
 Clean the Data set
-#all_data = all_data[all_data.isnull().any(axis=1)]
+all_data = all_data[all_data.isnull().any(axis=1)]
+
 Task 3=====================================================================================:
 
 #Add month column
+
 all_new_data['Month']=all_new_data['Order Date'].str[:2]
 all_new_data.head()
 
@@ -72,6 +77,7 @@ all_new_data['Sales']=all_new_data['Quantity Ordered']*all_new_data['Price Each'
 all_new_data
 
 Task 4 ===================================================================================:
+
 add a city column in our sales dataset
 
 #use the .apply() method with lambda funtion
@@ -90,11 +96,14 @@ all_new_data['City'] = all_new_data['Purchase Address'].apply(lambda x: f"{get_c
 
 all_new_data.head()
 ==========================================================================
+
 convert the order date column in to date type object:
 
 all_new_data['Order Date']=pd.to_datetime(all_new_data['Order Date'])
 all_new_data.head()
+
 ===========================================================================
+
 Months with sales reates bar chart
 
 ![image](https://user-images.githubusercontent.com/59441768/152639499-213fab15-6c85-4ad6-ac43-543f73731f2b.png)
